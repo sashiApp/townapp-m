@@ -1,14 +1,27 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Kamareddy
     </ion-title>
   </ion-navbar>
 </ion-header>
-
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <div class = "row">
+      <div class = "col"><ion-img src="assets/imgs/icons/realestate/house (5).png" (click)="navigateTo('BuyListPage')" style="zoom:4.0;"></ion-img></div>
+    <div class = "col"><ion-img src="assets/imgs/icons/newspaper/newspaper (5).png" (click)="navigateTo('NewsPage')" style="zoom:4.0;"></ion-img></div>
+    <div class = "col"><ion-img src="assets/imgs/icons/shopping/shop5.png" (click)="navigateTo('buy-list')" style="zoom:4.0;"></ion-img></div>
+   </div> 
+ <div class = "row">
+  <div class = "col"> <ion-icon name="custom-test"></ion-icon></div>
+  <div class = "col">
+      <ion-img src="assets/imgs/icons/shopping/shop5.png" (click)="addItem()" style="zoom:4.0;"></ion-img>
+    </div>
+  <div class = "col"><ion-img src="assets/imgs/icons/realestate/house (5).png" style="zoom:4.0;"></ion-img></div>
+</div> 
+<div class = "row">
+  <div class = "col"><ion-img src="assets/imgs/icons/realestate/house (5).png" style="zoom:4.0;"></ion-img></div>
+  <div class = "col"><ion-img src="assets/imgs/icons/realestate/house (5).png" style="zoom:4.0;"></ion-img></div>
+  <div class = "col"><ion-img src="assets/imgs/icons/realestate/house (5).png" style="zoom:4.0;"></ion-img></div>
+</div> 
 </ion-content>
+
